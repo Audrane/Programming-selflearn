@@ -2,42 +2,19 @@
     background-color: indianred;
     color: white;
 }
-#un{
-    background-color: darkslategray;
-    color: white;
-}
-#deux{
-    background-color: darkslategray;
-    color: white;
-}
 
-#trois input{
-    background-color: darkslategray;
-    color: white;
-}
-
-#quatre input{
+input[type="button"]
+{
+    border: solid black 2px;
+    width:100%;
     background-color: grey;
     color: white;
 }
 
-#cinq input{
-    background-color: grey;
-    color: white;
+f#result{
+    visibility: hidden;
 }
-#six input{
-    background-color: grey;
-    color: white;
-}
-#sept input{
-    background-color: grey;
-    color: white;
-}
-#huit input{
-    background-color: grey;
-    color: white;
-}
-div#quatr{
-    background-color: darkslategray;
-    color: white;
+
+span#exponent{
+    visibility: hidden;
 }
