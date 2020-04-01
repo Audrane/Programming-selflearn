@@ -186,7 +186,7 @@ function solve() {
         (<HTMLInputElement>document.getElementById("result")).value = result.toString();
         IsExpHoch = false;
         firstNbre = NaN;
-        document.getElementById("exponent").style.visibility = 'hidden';
+        document.getElementsByTagName("span")[0].setAttribute("class","dodo");
         //return;
 
     } else (<HTMLInputElement>document.getElementById("result")).value = getInput().toString();

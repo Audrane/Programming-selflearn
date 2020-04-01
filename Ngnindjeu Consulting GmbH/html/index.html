@@ -2,10 +2,216 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <title>Title</title>
+
+
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Title</title>
+<script type="text/javascript" src="../scripts/client.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<h1>mdekd</h1>
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Angestellte übersicht</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris')">Ticketsystem</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Managerview</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Infos</button>
+</div>
+
+<div id="audy">
+    <div>
+        <a href="#" id="underlin"><u> Registrieren |</u> </a>
+        <a href="#" id="underl"><u> Abmelden |</u> </a>
+        <a href="#" id="underli"><u> English </u> </a>
+    </div>
+</div>
+
+<h1 id="Ngnin">Ngnindjeu Consulting Gmbh</h1>
+
+<form id="erstens">
+    <fieldset id="erst">
+        <legend>Anzeigefenster</legend>
+        <fieldset id="test">
+            <legend>Filter</legend>
+            Abteilung(en): <select id="abt">
+            <option>Development</option>
+            <option> Customer Service</option>
+            <option> Finance</option>
+            <option> Human Resources</option>
+            <option> Marketing</option>
+            <option> Production</option>
+            <option>Quality Management</option>
+            <option> Research</option>
+            <option> Sales</option>
+        </select>
+            &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+            Geburtsdatum von:<input type="date"> <br>
+
+
+            Stelle(n):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <select id="stelle">
+            <option>Manager</option>
+            <option>Technique Leader</option>
+            <option> Assistant Engineer</option>
+            <option> Senior Staff</option>
+            <option> Engineer</option>
+            <option> Staff</option>
+            <option> Senior Engineer</option>
+        </select>
+            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+            &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+            bis:<input type="date">
+            <br/>
+            <br/>
+
+            Vorname mit:    &nbsp;<input type="text" id="vorn">
+            &nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;       &nbsp;&nbsp;&nbsp;     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+            Anstellungsdatum von: <input type="date">
+
+            Nachname mit:<input type="text" id="nach">
+
+            &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            bis: <input type="date">
+            <br>
+            Geschlecht:   &nbsp;  &nbsp; <select id="sel">
+            <option>
+                Weiblich
+            </option>
+            <option>
+                Männlich
+            </option>
+        </select>
+            Gehalt von: <input type="text" id="von"> bis:<input type="text" id="bis">
+            <br>
+        </fieldset>
+
+        <fieldset id="Second">
+            <legend id="sort">
+                Sortierung
+            </legend>
+
+            Nach:
+
+          &nbsp;&nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+
+            <select id="name">
+            <option>
+                Name
+            </option>
+            <option>
+                Vorname
+            </option>
+            <option>
+                Abteilung
+            </option>
+            <option>
+                Stelle
+            </option>
+        </select><br>
+            Order:
+ &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select id="order">
+                <option> Aufsteigend</option>
+
+                <option> Absteigend</option>
+            </select><br>
+            <button type="button" class="gr">Anwenden</button>
+
+            <button type="button" class="rot">Zurücksetzen</button>
+        </fieldset>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Vorname</th>
+                <th>Stelle</th>
+                <th>Abteilung</th>
+                <th>Gehalt</th>
+                <th>Anstellungsdatum</th>
+                <th>Geburtsdatum</th>
+                <th>Geschlecht</th>
+            </tr>
+            <tr>
+                <td>Ngnindjeu</td>
+                <td>Audrane</td>
+                <td>Engineer </td>
+                <td>Development</td>
+                <td>1200</td>
+                <td>25.02.2000 </td>
+                <td>03.01.1998</td>
+                <td>Weiblich</td>
+
+            </tr>
+            <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+
+            </tr>
+            <tr>
+                <td>Ernst Handel</td>
+                <td>Roland Mendel</td>
+                <td>Austria</td>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+
+            </tr>
+            <tr>
+                <td>Mexico</td>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+                <td>Island Trading</td>
+            </tr>
+            <tr>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>Yoshi Tannamuri</td>
+                <td>Canada</td>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>Yoshi Tannamuri</td>
+               <td>Laughing Bacchus Winecellars</td>
+                <td>Yoshi Tannamuri</td>
+                <td>Centro comercial Moctezuma</td>
+
+            </tr>
+            <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>Giovanni Rovelli</td>
+                <td>Italy</td>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>Yoshi Tannamuri</td>
+                <td>Canada</td>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>Yoshi Tannamuri</td>
+
+            </tr>
+        </table>
+    </fieldset>
+
+</form>
+
+
 </body>
 </html>

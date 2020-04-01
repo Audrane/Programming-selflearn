@@ -18,3 +18,7 @@ f#result{
 span#exponent{
     visibility: hidden;
 }
+
+#exponent.dodo{
+    visibility: hidden;
+}
