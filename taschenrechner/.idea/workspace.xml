@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="558e21b1-ffb8-4364-b710-b4445d195668" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Ngnindjeu Consulting GmbH/Design.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ngnindjeu Consulting GmbH/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ngnindjeu Consulting GmbH/html/Bouillon" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ngnindjeu Consulting GmbH/html/teste.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ngnindjeu Consulting GmbH/scripts/client.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ngnindjeu Consulting GmbH/server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ngnindjeu Consulting GmbH/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ngnindjeu Consulting GmbH/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Ngnindjeu Consulting GmbH/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ngnindjeu Consulting GmbH/html/Bouillon" beforeDir="false" afterPath="$PROJECT_DIR$/../Ngnindjeu Consulting GmbH/html/Bouillon" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Ngnindjeu Consulting GmbH/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Ngnindjeu Consulting GmbH/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ngnindjeu Consulting GmbH/scripts/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Ngnindjeu Consulting GmbH/scripts/client.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text" beforeDir="false" afterPath="$PROJECT_DIR$/Text" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/berechnung.ts" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/berechnung.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +31,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ngnindjeu Consulting GmbH" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -74,7 +67,9 @@
       <workItem from="1583609070833" duration="696000" />
       <workItem from="1585391875448" duration="80000" />
       <workItem from="1585392713305" duration="3966000" />
-      <workItem from="1585659320611" duration="5701000" />
+      <workItem from="1585659320611" duration="5713000" />
+      <workItem from="1586289811593" duration="87000" />
+      <workItem from="1586349741143" duration="44000" />
     </task>
     <task id="LOCAL-00001" summary="mkmlö,">
       <created>1585392748066</created>

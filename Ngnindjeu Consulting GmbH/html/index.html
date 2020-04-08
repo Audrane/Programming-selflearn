@@ -6,20 +6,25 @@
     <title>Title</title>
 
 
-    <meta charset="UTF-8">
+
 
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <title>Title</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript" src="../scripts/client.js"></script>
+
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
 
-<div class="tab">
-    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Angestellte übersicht</button>
-    <button class="tablinks" onclick="openCity(event, 'Paris')">Ticketsystem</button>
-    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Managerview</button>
-    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Infos</button>
+<div id="tab" >
+    <button  id="Angestel">Angestellte übersicht</button>
+    <button  id="tickets">Ticketsystem</button>
+    <button class="tablinks">Managerview</button>
+    <button >Infos</button>
 </div>
 
 <div id="audy">
@@ -32,10 +37,10 @@
 
 <h1 id="Ngnin">Ngnindjeu Consulting Gmbh</h1>
 
-<form id="erstens">
-    <fieldset id="erst">
+
+    <fieldset id="Anzeigefenster">
         <legend>Anzeigefenster</legend>
-        <fieldset id="test">
+        <fieldset id="filter">
             <legend>Filter</legend>
             Abteilung(en): <select id="abt">
             <option>Development</option>
@@ -48,10 +53,9 @@
             <option> Research</option>
             <option> Sales</option>
         </select>
-            &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
-            Geburtsdatum von:<input type="date"> <br>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            Geburtsdatum von: &nbsp; &nbsp; <input type="date" id="geburtsdatum"> <br>
 
 
             Stelle(n):
@@ -69,23 +73,29 @@
             &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
             &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-
-            bis:<input type="date">
+            &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
+            bis: &nbsp; &nbsp; <input type="date" id="biss">
             <br/>
             <br/>
 
             Vorname mit:    &nbsp;<input type="text" id="vorn">
-            &nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;       &nbsp;&nbsp;&nbsp;     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+            Anstellungsdatum von: &nbsp; &nbsp; <input type="date" id="Anstellungsdat"> <br>
 
-            Anstellungsdatum von: <input type="date">
+
 
             Nachname mit:<input type="text" id="nach">
 
             &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-            bis: <input type="date">
+            &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+            bis:  &nbsp; &nbsp; <input type="date" id="bisss">
             <br>
-            Geschlecht:   &nbsp;  &nbsp; <select id="sel">
+            Geschlecht:   &nbsp; &nbsp; <select id="sel">
             <option>
                 Weiblich
             </option>
@@ -93,7 +103,8 @@
                 Männlich
             </option>
         </select>
-            Gehalt von: <input type="text" id="von"> bis:<input type="text" id="bis">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+            Gehalt von: &nbsp; &nbsp; <input type="text" id="von">  &nbsp; &nbsp;&nbsp;  bis: &nbsp; &nbsp;&nbsp;<input type="text" id="bis">
             <br>
         </fieldset>
 
@@ -208,9 +219,15 @@
 
             </tr>
         </table>
+<span>
+
+        <label>50 von 35000 Daten</label>
+    &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;   &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;
+    &nbsp;<button class="neuLad"> Daten neu laden</button>
+</span>
     </fieldset>
 
-</form>
+
 
 
 </body>

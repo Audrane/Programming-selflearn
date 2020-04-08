@@ -52,3 +52,45 @@ fieldset
       margin-left: 50%;
       border: 1px solid royalblue;
   }
+
+
+--------------------------------
+How to use getelementbclassname ts
+   const showSlides = () => {
+       const slides = document.getElementsByClassName('slide');
+
+       for (let i = 0; i < slides.length; i++) {
+           const slide = slides[i] as HTMLElement;
+           slide.style.display = "none";
+       }
+   };
+   -------------------
+   changecolor with ts
+
+
+   function change(){
+       document.getElementById('defaultOpen').style.backgroundColor = "white";
+      // document.getElementById('defaultOpen2').style.backgroundColor = "white";
+   }
+
+   ----------------------
+
+   Change color with jquery
+
+   $(function change() {
+       $('#tab').on("click",function() {
+           $('#defaultOpen').css('backgroundColor',"red");
+       });
+   });
+
+   ---------------------
+
+   CHange color in Js
+
+   let btn= document.querySelector('.tablinks');
+   btn.addEventListener('click',()=>
+      btn.style.backgroundColor = 'red');
+Fagen
+-----------
+
+Stringify und parse
