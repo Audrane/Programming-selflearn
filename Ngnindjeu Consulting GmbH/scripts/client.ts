@@ -1,48 +1,87 @@
+function changeBgCl(item) {
+    const slides = document.getElementsByClassName('tabBtn');
 
-$(function () {
-    $(".rot").on("click", function () {
-        $("#erst").empty();
-    });
+    for (let i = 0; i < slides.length; i++) {
+        const slide = slides[i] as HTMLButtonElement;
+        slide.style.backgroundColor = "green";
+    }
+    var clickedElement: HTMLButtonElement = <HTMLButtonElement>item;
+    /*
+    alternative anstatt die for schleife von oben mit jquery
+    $('#tickets').css('backgroundColor',"green");
+    $('#Angestel').css('backgroundColor',"green");
+    $('#managerView').css('backgroundColor',"green");
+dann in html onclick="changeBgCl(this)"
+     */
+
+    clickedElement.style.backgroundColor = "red";
+}
+
+
+
+$(function() {
+    (<any>$("#selectable")).selectable({filter: 'tr'});
 });
 
-$(function change (){
-  $('#Angestel').click(function () {
-     $(this).css("backgroundColor","green");
-  });
+/**
+ * test et change ne doivent pa etre appele dans le html
+ * explicite car le onclick est deja fait dans le typscript file
+ */
+function test() {
+    const slides = document.getElementsByClassName('tabBtn');
+    for (let i = 0; i < slides.length; i++) {
+        const slide = slides[i] as HTMLElement;
+        slide.style.backgroundColor = "green";
+    }
+}
+
+$(function change() {
+    $('#Angestel').click(function () {
+        test();
+        /*
+        ma version principale
+        $('#tickets').css('backgroundColor',"green");
+        $('#managerView').css('backgroundColor',"green");*/
+        // $('#info').css('backgroundColor',"green");
+        $(this).css("backgroundColor", "red");
+    });
 
     $('#tickets').click(function () {
-        $(this).css("backgroundColor","red");
+        test();
+        /*
+        $('#managerView').css('backgroundColor',"green");
+        $('#Angestel').css('backgroundColor',"green");*/
+        //$('#info').css('backgroundColor',"green");
+        $(this).css("backgroundColor", "red");
     });
 
-    $('.tablinks').click(function () {
-        $(this).css("backgroundColor","yellow");
-    });
-});
-
-/*
-$(function change() {
-    $('#tab').on("click",function() {
+    $('#managerView').click(function () {
+        test();
+        /*
+        test() et ce block font la meme chose mais test est en typescript et ce block jquery
+        $('#tickets').css('backgroundColor',"green");
         $('#Angestel').css('backgroundColor',"green");
+        $('#info').css('backgroundColor',"green");
+
+         */
+        $(this).css("backgroundColor", "red");
     });
-    $('#tab').on("click",function() {
-        $('#tickets').css('backgroundColor',"red");
-    });
-    $('#tab').on("click",function() {
-        $('.tablinks').css('backgroundColor',"yellow");
+
+
+    $('#info').click(function () {
+        test();
+        /*
+        $('#tickets').css('backgroundColor',"green");
+        $('#Angestel').css('backgroundColor',"green");
+
+
+        $('#managerview').css('backgroundColor',"green");
+
+         */
+        $(this).css("backgroundColor", "red");
     });
 });
 
 
-
-function change(){
-    document.getElementById('defaultOpen').style.backgroundColor = "white";
-   // document.getElementById('defaultOpen2').style.backgroundColor = "white";
-}
-*/
-
-// @ts-ignore
-jQuery($(".chosen-select").chosen({
-    no_results_text: "Oops, nothing found!"
-}));
 
 

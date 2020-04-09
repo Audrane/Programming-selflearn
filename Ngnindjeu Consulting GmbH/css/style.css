@@ -1,8 +1,52 @@
+#abt {
+    padding-right: 10%;
+}
+
+#geburtsdatum{
+    padding-right: 11%;
+}
+
+#stelle {
+    padding-right: 11%;
+}
+
+#biss{
+
+    padding-right: 11%;
+}
+#vorn {
+    width: 24%;
+}
+#Anstellungsdat{
+    width: 23%;
+}
+
+#nach {
+    width: 24%;
+}
+#bisss{
+    width:23%;
+    padding-right: 11%;
+}
+
+#sel{
+    width: 24%;
+}
+
+
 #Ngnin {
     color: chartreuse;
     text-align: center;
 }
 
+#von{
+    width: 20%;
+}
+
+#bis{
+    width:23%;
+    padding-right: 11%;
+}
 
 .panel {
     /* for text on pannel */
@@ -54,16 +98,30 @@ legend {
     border: 1px solid royalblue;
     float: right;
     width: 25%;
-    margin-top: -225px;
-   padding-bottom: 0px;
+    margin-top: -210px;
+   padding-bottom: 1px;
 
 
 }
 
 
 
+
+.table-container {
+    height: 400px;
+    overflow-y: scroll;
+    background: #f1f1f1;
+    padding: 10px;
+}
+
+#selectable tr :hover{
+    background-color: crimson;
+}
+
 table {
-    width: 100%;
+    width: 90%;
+    float: right;
+
 }
 
 td, th {
@@ -88,14 +146,14 @@ tr:nth-child(even) {
     background-color: red;
     color: white;
     padding: 15px;
-    float: right;
 
+float:right;
 }
 .gr {
     background-color: green;
     color: black;
     padding: 15px;
-
+    float:right;
 }
 
 
@@ -106,53 +164,31 @@ tr:nth-child(even) {
 }
 
 
-#abt {
-padding-right: 10%;
-}
-#geburtsdatum{
-    padding-right: 12%;
-}
 
-#stelle {
-    padding-right: 11%;
-}
 
-#vorn {
-    width: 22%;
-}
-#Anstellungsdat{
-    width: 21%;
-}
-#bis{
-    width:21%;
-    padding-right: 11%;
-}
 
-#bisss{
-    width:21%;
-    padding-right: 11%;
-}
 
-#biss{
-    width:21%;
-    padding-right: 11%;
-}
+
+
+
+
+
+
+
+
+
+
+
 .neuLad{
     background-color: green;
     color: black;
-    float: right;
+
     padding: 20px;
 
 }
-#nach {
-    width: 22%;
-}
-#von{
-    width: 20%;
-}
-#sel{
-    width: 22%;
-}
+
+
+
 
 * {
     box-sizing: border-box
@@ -170,7 +206,7 @@ body {
     width: 10%;
     height: 200px;
 
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 /* Style the buttons inside the tab */
