@@ -19,10 +19,14 @@ dann in html onclick="changeBgCl(this)"
 
 
 
-$(function() {
-    (<any>$("#selectable")).selectable({filter: 'tr'});
+/*
+$("#selectable tr").click(function(event){
+  $(this).addClass("selected").siblings().removeClass("selected");
+    var myRow: HTMLTableRowElement = <HTMLTableRowElement>document.getElementById("selectable");
+    myRow.style.backgroundColor="green";
 });
 
+ */
 /**
  * test et change ne doivent pa etre appele dans le html
  * explicite car le onclick est deja fait dans le typscript file
@@ -82,6 +86,18 @@ $(function change() {
     });
 });
 
+function myFunction(id) {
+    const slides = document.getElementsByClassName('un');
 
+    for (let i = 0; i < slides.length; i++) {
+        const slide = slides[i] as HTMLSelectElement;
+        if(i%2==0){
 
-
+            slide.style.backgroundColor = "#dddddd";
+        }
+       else
+            slide.style.backgroundColor = "#A9A9A9";
+    }
+    var selectedElement: HTMLSelectElement = <HTMLSelectElement>id;
+     selectedElement.style.backgroundColor='red';
+}

@@ -114,9 +114,6 @@ legend {
     padding: 10px;
 }
 
-#selectable tr :hover{
-    background-color: crimson;
-}
 
 table {
     width: 90%;
@@ -242,3 +239,8 @@ body {
     width: 40%;
 
 }
+
+td {border: 1px #DDD solid; padding: 5px; cursor: pointer;}
+
+
+
