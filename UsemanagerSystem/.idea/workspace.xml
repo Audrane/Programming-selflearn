@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="785ff5cd-cfc9-41b3-93c5-5513cc2d79f5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="package.json" />
+        <option value="TypeScript File" />
+        <option value="HTTP Request" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UySb355xnamQdPjfrtCXQlb4Sd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/libs" />
+      <recent name="$PROJECT_DIR$/scripts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/html" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8484/users/update" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8484/users/delete" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8484/users/delete" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8484/test" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="{" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;F_Name&quot;" />
+                <option name="value" value="'audrane'," />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;nachname&quot;" />
+                <option name="value" value="'rane'," />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;email&quot;" />
+                <option name="value" value="'audrane@yahoo.fr'," />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;password&quot;" />
+                <option name="value" value="'audrane'," />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="&quot;rolle&quot;" />
+                <option name="value" value="'0'" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="}" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8484/users/add" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8484/users/add" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8484/users" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8484" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8484" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8484/users" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.test#3 (1)">
+    <configuration name="test#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/test.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="test#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/test.http" index="2">
+      <method v="2" />
+    </configuration>
+    <configuration name="test#3 (1)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/test.http" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="test#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/test.http" index="3">
+      <method v="2" />
+    </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.test#3 (1)" />
+        <item itemvalue="HTTP Request.test#2" />
+        <item itemvalue="HTTP Request.test#1" />
+        <item itemvalue="HTTP Request.test#3" />
+        <item itemvalue="Node.js.server.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="785ff5cd-cfc9-41b3-93c5-5513cc2d79f5" name="Default Changelist" comment="" />
+      <created>1576327410029</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576327410029</updated>
+      <workItem from="1576327411208" duration="27820000" />
+      <workItem from="1576568710892" duration="2170000" />
+      <workItem from="1576571185696" duration="13374000" />
+      <workItem from="1576626404863" duration="17285000" />
+      <workItem from="1576849324982" duration="4847000" />
+      <workItem from="1576880552802" duration="5598000" />
+      <workItem from="1576975357714" duration="958000" />
+      <workItem from="1576977626690" duration="4355000" />
+      <workItem from="1577022014816" duration="719000" />
+      <workItem from="1577309390736" duration="738000" />
+      <workItem from="1577523979545" duration="15415000" />
+      <workItem from="1577541568983" duration="2483000" />
+      <workItem from="1577634271253" duration="16459000" />
+      <workItem from="1577651141121" duration="4810000" />
+      <workItem from="1577780732664" duration="4982000" />
+      <workItem from="1577996859857" duration="6899000" />
+      <workItem from="1578329694105" duration="4159000" />
+      <workItem from="1578428154459" duration="10201000" />
+      <workItem from="1579085941834" duration="3916000" />
+      <workItem from="1579096805101" duration="2561000" />
+      <workItem from="1579530976993" duration="777000" />
+      <workItem from="1579538110391" duration="1160000" />
+      <workItem from="1579605506503" duration="1455000" />
+      <workItem from="1579617839477" duration="9071000" />
+      <workItem from="1579703748488" duration="2072000" />
+      <workItem from="1579728434965" duration="3272000" />
+      <workItem from="1580130450248" duration="596000" />
+      <workItem from="1580135910733" duration="1324000" />
+      <workItem from="1580323956032" duration="684000" />
+      <workItem from="1580815641803" duration="29000" />
+      <workItem from="1580818098428" duration="1156000" />
+      <workItem from="1580895425739" duration="3962000" />
+      <workItem from="1581515279082" duration="2341000" />
+      <workItem from="1582316720976" duration="994000" />
+      <workItem from="1582385276756" duration="1245000" />
+      <workItem from="1582475514477" duration="638000" />
+      <workItem from="1582920783723" duration="2386000" />
+      <workItem from="1583060801180" duration="5095000" />
+      <workItem from="1583514225367" duration="1798000" />
+      <workItem from="1583755719763" duration="1162000" />
+      <workItem from="1583773997342" duration="4201000" />
+      <workItem from="1583956387189" duration="537000" />
+      <workItem from="1583957054611" duration="454000" />
+      <workItem from="1583958280006" duration="31000" />
+      <workItem from="1583958977931" duration="1956000" />
+      <workItem from="1584466191164" duration="1381000" />
+      <workItem from="1584468835439" duration="4082000" />
+      <workItem from="1584476415573" duration="598000" />
+      <workItem from="1584731875389" duration="1929000" />
+      <workItem from="1584792561625" duration="358000" />
+      <workItem from="1584793034306" duration="2285000" />
+      <workItem from="1584796932156" duration="4381000" />
+      <workItem from="1584803271305" duration="668000" />
+      <workItem from="1584895667295" duration="27000" />
+      <workItem from="1584987510125" duration="1153000" />
+      <workItem from="1584989769411" duration="2158000" />
+      <workItem from="1585163717060" duration="593000" />
+      <workItem from="1585384250607" duration="630000" />
+      <workItem from="1585411110016" duration="619000" />
+      <workItem from="1585417814023" duration="595000" />
+      <workItem from="1585428692621" duration="9716000" />
+      <workItem from="1586371072537" duration="1302000" />
+      <workItem from="1586434915286" duration="7339000" />
+      <workItem from="1586761193264" duration="2005000" />
+      <workItem from="1586975762136" duration="4328000" />
+      <workItem from="1587044349526" duration="26631000" />
+      <workItem from="1587384262062" duration="963000" />
+      <workItem from="1587577532308" duration="1418000" />
+      <workItem from="1587668241766" duration="1197000" />
+      <workItem from="1588538026591" duration="1247000" />
+      <workItem from="1588614230732" duration="70000" />
+      <workItem from="1589227732560" duration="676000" />
+      <workItem from="1589708126792" duration="296000" />
+      <workItem from="1592857817788" duration="516000" />
+      <workItem from="1592859228581" duration="613000" />
+      <workItem from="1593343038552" duration="426000" />
+      <workItem from="1595069206462" duration="264000" />
+      <workItem from="1595069975573" duration="768000" />
+      <workItem from="1595070746879" duration="458000" />
+      <workItem from="1595071516392" duration="2110000" />
+      <workItem from="1595073651843" duration="1423000" />
+      <workItem from="1595252226390" duration="1965000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/scripts/BenutzerVerwaltung.js.map" />
+        <option value="$PROJECT_DIR$/scripts/BenutzerVerwaltung.js" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1830" height="260" key="GridCell.Tab.0.bottom" timestamp="1595075074417">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="260" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1595075074417" />
+    <state width="1830" height="260" key="GridCell.Tab.0.center" timestamp="1595075074416">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="260" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1595075074416" />
+    <state width="1830" height="260" key="GridCell.Tab.0.left" timestamp="1595075074416">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="260" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1595075074416" />
+    <state width="1830" height="260" key="GridCell.Tab.0.right" timestamp="1595075074416">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="260" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1595075074416" />
+    <state x="482" y="187" key="SettingsEditor" timestamp="1595073044195">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1595073044195" />
+  </component>
+</project>
